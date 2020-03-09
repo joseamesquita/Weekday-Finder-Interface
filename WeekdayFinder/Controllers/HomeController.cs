@@ -12,27 +12,21 @@ namespace WeekdayFinder.Controllers
     [Route("/goodbye")]
     public string Goodbye() { return "Goodbye friend."; }
 
-    // [Route("/")]
-    // public string Letter() { return "Our virtual postcard will go here soon!"; }
-
-    // [Route("/")]
-    // public ActionResult Letter()
-    // {
-    //   LetterVariable myLetterVariable = new LetterVariable();
-    //   myLetterVariable.Recipient = "Lina";
-    //   myLetterVariable.Sender = "Jasmine";
-    //   return View(myLetterVariable);
-    // }
     [Route("/form")]
-    public ActionResult Form() { return View(); }
+    public ActionResult Form()
+    {
+      // Console.WriteLine("Input a month with two digits: Ex: 01 = January, 02 = February, etc.");
+      // int result = int.Parse(Console.ReadLine());
+      // Console.WriteLine("Input a day with two digits: ");
+      // int result2 = int.Parse(Console.ReadLine());
+      // Console.WriteLine("Input a year with four digits: ");
+      // int result3 = int.Parse(Console.ReadLine());
+      // DateTime dateValue = new DateTime(W);
+      // Console.WriteLine("-------------------");
+      // Console.WriteLine(dateValue.ToString("dddddddd"));
 
-    // [Route("/postcard")]
-    // public ActionResult Postcard(string recipient, string sender)
-    // {
-    //   LetterVariable myLetterVariable = new LetterVariable();
-    //   myLetterVariable.Recipient = recipient;
-    //   myLetterVariable.Sender = sender;
-    //   return View(myLetterVariable);
-    // }
+      return View();
+    }
+
   }
 }
