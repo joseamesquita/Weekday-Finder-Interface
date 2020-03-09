@@ -1,6 +1,6 @@
 namespace WeekdayFinder.Models
 {
-  public class WeekdayFinder
+  public class Weekday
   {
     public int Result { get; set; }
 
@@ -8,7 +8,7 @@ namespace WeekdayFinder.Models
 
     public int Result3 { get; set; }
 
-    public WeekdayFinder(int result, int result2, int result3)
+    public Weekday(int result, int result2, int result3)
     {
       Result = result;
       Result2 = result2;

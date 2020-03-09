@@ -15,6 +15,12 @@ namespace WeekdayFinder.Controllers
     [Route("/form")]
     public ActionResult Form()
     {
+
+      // Weekday dates = new Weekday(result, result2, result3);
+      // dates.Result = result;
+
+
+
       // Console.WriteLine("Input a month with two digits: Ex: 01 = January, 02 = February, etc.");
       // int result = int.Parse(Console.ReadLine());
       // Console.WriteLine("Input a day with two digits: ");
