@@ -14,5 +14,6 @@ namespace WeekdayFinder.Models
       Result2 = result2;
       Result3 = result3;
     }
+
   }
 }
